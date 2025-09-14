@@ -1,0 +1,17 @@
+.spin {
+  border: 4px solid transparent;   /* base border */
+  border-top: 4px solid blue;      /* the visible part */
+  height: 40px;                    /* make it bigger for visibility */
+  width: 40px;
+  border-radius: 50%;
+  animation: spin 1s linear infinite; /* this applies the animation */
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
