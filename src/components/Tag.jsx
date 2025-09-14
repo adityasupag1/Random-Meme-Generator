@@ -16,7 +16,7 @@ const Tag =()=>{
  
 
   return (
-    <div className=" w-1/2 bg-blue-500 mx-auto rounded-lg border  border-black flex flex-col items-center gap-y-5 mt-[15px] ">
+    <div className="md:w-1/2 max-sm:w-11/12 sm:w-10/12 bg-blue-500 mx-auto rounded-lg border  border-black flex flex-col items-center gap-y-5 mt-[15px] ">
      <h1 className="mt-[15px] text-2xl font-bold underline uppercase ">
      Random {tag} Gif
      </h1>
